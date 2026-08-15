@@ -1,7 +1,7 @@
 # ANÁLISE DO CÓDIGO DA QUESTÃO 05
 
 ## CÓDIGO DA QUESTÃO
-```
+```c
 main()
 {
     int a=1; b=2; c=3:
