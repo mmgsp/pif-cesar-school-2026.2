@@ -1,4 +1,4 @@
-// Código da questão 04 corrigido
+/* Código da questão 04 corrigido */
 
 #include <stdio.h>
 #include <stdlib.h>
