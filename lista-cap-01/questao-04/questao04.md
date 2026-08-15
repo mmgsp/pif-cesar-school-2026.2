@@ -21,7 +21,7 @@ int Main{} <-- A sintaxe correta seria "int main()", utilizando parênteses "()"
 
 ( <-- A sintaxe correta seria "{"
 
-    printf( Existem %d semanas no ano.,52); <-- O texto dentro da função printf deveria estar entre     aspas duplas
+    printf( Existem %d semanas no ano.,52); <-- O texto dentro da função printf deveria estar entre aspas duplas
 
     cout << endl; <-- Esta linha de código não funciona em C, pois utiliza funções exclusivas de C++
 
