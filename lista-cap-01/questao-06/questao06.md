@@ -1,14 +1,14 @@
 # ANÁLISE DO CÓDIGO DA QUESTÃO 05
 
 ## CÓDIGO DA QUESTÃO
-
+```
 main()
 {
     int a=1; b=2; c=3:
     printf("0s números são: %d%d%d\n, a, b, c, d);
     system("pause");
 }
-
+```
 ## ANÁLISE
 
 1. Faltaram as seguintes diretivas para que o código funcione corretamente: #include <stdio.h>  e #include <stdlib.h>
