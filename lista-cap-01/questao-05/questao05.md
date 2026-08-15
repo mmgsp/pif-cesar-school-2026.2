@@ -1,13 +1,13 @@
 # ANÁLISE DO CÓDIGO DA QUESTÃO 05
 
 ## CÓDIGO DA QUESTÃO
-
+```
 main()
 {
 printf("Linguagem C");
 system("pause");
 }
-
+```
 ## ANÁLISE
 
 1. Faltaram as seguintes diretivas para que o código funcione corretamente: #include <stdio.h>  e #include <stdlib.h>
