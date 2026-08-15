@@ -1,7 +1,7 @@
 # ANÁLISE DO CÓDIGO DA QUESTÃO 04
 
 ## CÓDIGO DA QUESTÃO
-
+```
 #include <stdio.h>
 #include <stdlib.h>;
 int Main{}
@@ -11,9 +11,9 @@ cout << endl;
 system("PAUSE");
 return 0;
 )
-
+```
 ## ANÁLISE
-
+```
 #include <stdio.h>
 #include <stdlib.h>; <-- Aqui não é necessário utilizar ";"
 
@@ -29,3 +29,4 @@ int Main{} <-- A sintaxe correta seria "int main()", utilizando parênteses "()"
     return 0;
 
 ) <-- A sintaxe correta seria "}"
+```
