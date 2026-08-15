@@ -1,3 +1,4 @@
+```
 Constante      Classificação (Tipo de Constante)            Tipo Base em C
 \r                  [ Sequência de Escape ]                    [ char ]
 2130        [ Constante inteira decimal (positiva) ]           [ int ]
@@ -14,3 +15,4 @@ Constante      Classificação (Tipo de Constante)            Tipo Base em C
 '\0'                [ Sequência de Escape ]                    [ char ]
 "F"                   [ Constante string ]                     [ char ]
 -4567.89   [ Constante de ponto flutuante (negativa) ]         [ float ]
+```
