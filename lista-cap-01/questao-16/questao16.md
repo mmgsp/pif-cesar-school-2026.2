@@ -1,0 +1,3 @@
+# QUESTÃO 16
+
+**ALTERNATIVA CORRETA:** c) Pré-processador (fase do compilador que altera o programa-fonte antes da compilação propriamente dita).
