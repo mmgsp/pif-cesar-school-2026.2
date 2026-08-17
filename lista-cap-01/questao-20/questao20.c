@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main()
+{
+
+    printf("\xC9\xCD\xCD\xCD\xCD\xBB\n\xBA    \xBA\n\xBA    \xBA\n\xBA    \xBA\n\xBA    \xBA\n\xC8\xCD\xCD\xCD\xCD\xBC");
+
+    return 0;
+
+}
+
