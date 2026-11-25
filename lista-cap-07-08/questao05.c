@@ -1,0 +1,81 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <windows.h>
+
+#define N 8
+
+int somaVetor(int v[], int n);
+int maiorValor(int v[], int n);
+int buscaValor(int v[], int n, int x);
+
+int main()
+{
+    SetConsoleOutputCP(CP_UTF8);
+
+    int v[N];
+    int i, x, pos;
+
+    for (i = 0; i < N; i++)
+    {
+        printf("Digite o valor %d: ", i + 1);
+        scanf("%d", &v[i]);
+    }
+
+    printf("Digite o valor a ser buscado: ");
+    scanf("%d", &x);
+
+    printf("\nSoma dos elementos: %d\n", somaVetor(v, N));
+    printf("Maior valor: %d\n", maiorValor(v, N));
+
+    pos = buscaValor(v, N, x);
+    if (pos == -1)
+    {
+        printf("Valor %d nao encontrado.\n", x);
+    }
+    else
+    {
+        printf("Valor %d encontrado na posicao %d.\n", x, pos);
+    }
+
+    system("pause");
+    return 0;
+}
+
+int somaVetor(int v[], int n)
+{
+    int i, soma = 0;
+
+    for (i = 0; i < n; i++)
+    {
+        soma += v[i];
+    }
+    return soma;
+}
+
+int maiorValor(int v[], int n)
+{
+    int i, maior = v[0];
+
+    for (i = 1; i < n; i++)
+    {
+        if (v[i] > maior)
+        {
+            maior = v[i];
+        }
+    }
+    return maior;
+}
+
+int buscaValor(int v[], int n, int x)
+{
+    int i;
+
+    for (i = 0; i < n; i++)
+    {
+        if (v[i] == x)
+        {
+            return i;
+        }
+    }
+    return -1;
+}
